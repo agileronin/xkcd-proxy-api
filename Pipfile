@@ -8,13 +8,13 @@ falcon = "*"
 gunicorn = "*"
 requests = "*"
 gevent = "*"
+
+[dev-packages]
 pycodestyle = "*"
 "autopep8" = "*"
 expects = "*"
 pytest = "*"
 pytest-cov = "*"
-
-[dev-packages]
 
 [requires]
 python_version = "3.8"

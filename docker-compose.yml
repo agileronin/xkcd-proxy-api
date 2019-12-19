@@ -1,0 +1,6 @@
+version: '3'
+services: 
+  xkcdi-proxy-api:
+    image: agileronin/xkcd-proxy-api:1.0.0
+    ports:
+      - 8000:8000
